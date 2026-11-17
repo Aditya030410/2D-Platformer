@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://3dpsj265cfwc"]
 
 [ext_resource type="PackedScene" uid="uid://idx5aebak3da" path="res://scenes/character_body_2d.tscn" id="1_ig7tw"]
-[ext_resource type="Script" uid="uid://mg6b7k4gcenj" path="res://character_body_2d.gd" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://clqixkp0plx7a" path="res://scripts/gamemanager.gd" id="1_jkv2x"]
+[ext_resource type="Script" uid="uid://mg6b7k4gcenj" path="res://scripts/character_body_2d.gd" id="2_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://co0r2ei87dyls" path="res://Terrain/Terrain (16x16).png" id="3_h2yge"]
 [ext_resource type="PackedScene" uid="uid://b00lt0ymd1ngh" path="res://scenes/platform.tscn" id="4_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://cyxftp4cfcekl" path="res://scenes/area_2d.tscn" id="5_tbgi4"]
@@ -427,9 +428,27 @@ sources/5 = SubResource("TileSetAtlasSource_pm3ni")
 sources/6 = SubResource("TileSetAtlasSource_y6deb")
 sources/7 = SubResource("TileSetAtlasSource_og1vs")
 
+[sub_resource type="SystemFont" id="SystemFont_rf14b"]
+subpixel_positioning = 0
+
 [node name="main" type="Node2D" unique_id=1461396867]
 position = Vector2(-1, 0)
 metadata/_edit_horizontal_guides_ = [-471.0]
+
+[node name="gamemanager" type="Node" parent="." unique_id=1154520353]
+unique_name_in_owner = true
+script = ExtResource("1_jkv2x")
+
+[node name="scorelabel" type="Label" parent="gamemanager" unique_id=1850631970]
+offset_left = 1243.0
+offset_top = -77.0
+offset_right = 1485.0
+offset_bottom = -31.0
+theme_override_colors/font_color = Color(1.0588765e-06, 0.66240525, 0.25321847, 1)
+theme_override_font_sizes/font_size = 28
+text = "YOU COLLECTED X APPLES !"
+horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="TileMap" type="TileMap" parent="." unique_id=746606824]
 tile_set = SubResource("TileSet_cekx0")
@@ -561,3 +580,25 @@ layer_1/tile_data = PackedInt32Array(1048556, 65538, 3, 1114092, 65538, 0, 11796
 
 [node name="enemy" parent="." unique_id=881010874 instance=ExtResource("14_a8y0u")]
 position = Vector2(471, 80)
+
+[node name="Label" type="Label" parent="." unique_id=1158212934]
+offset_left = -479.0
+offset_top = -106.0
+offset_right = -327.0
+offset_bottom = -30.0
+theme_override_colors/font_color = Color(0.40698922, 0.0017302042, 0.92413336, 1)
+theme_override_fonts/font = SubResource("SystemFont_rf14b")
+theme_override_font_sizes/font_size = 17
+text = "    SPACE TO JUMP
+        A - LEFT
+        	D- RIGHT"
+
+[node name="Label2" type="Label" parent="." unique_id=335100328]
+offset_left = 2516.0
+offset_top = 175.0
+offset_right = 2679.0
+offset_bottom = 253.0
+theme_override_colors/font_color = Color(0.9908902, 0, 0.29632634, 1)
+theme_override_fonts/font = SubResource("SystemFont_rf14b")
+theme_override_font_sizes/font_size = 17
+text = "!! YAY !! YOU DID IT !!!!"

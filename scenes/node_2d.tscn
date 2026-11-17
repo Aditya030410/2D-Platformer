@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c4aoebjj8nhtn"]
 
 [ext_resource type="Texture2D" uid="uid://bsclurwi5f6mc" path="res://Traps/Rock Head/Blink (42x42).png" id="1_4dvvg"]
-[ext_resource type="Script" uid="uid://cpe3j7ifayex6" path="res://scenes/enemy.gd" id="1_rnjyy"]
+[ext_resource type="Script" uid="uid://cpe3j7ifayex6" path="res://scripts/enemy.gd" id="1_rnjyy"]
 [ext_resource type="PackedScene" uid="uid://cbwl2je1olu2a" path="res://scenes/die.tscn" id="2_rnjyy"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0hol4"]

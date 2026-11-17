@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cbwl2je1olu2a"]
 
-[ext_resource type="Script" uid="uid://d0565ui2pb0ym" path="res://scenes/die.gd" id="1_5x8g4"]
-[ext_resource type="AudioStream" uid="uid://soabl78g0lcb" path="res://death.ogg" id="2_hvcds"]
+[ext_resource type="Script" uid="uid://d0565ui2pb0ym" path="res://scripts/die.gd" id="1_5x8g4"]
+[ext_resource type="AudioStream" uid="uid://soabl78g0lcb" path="res://audio/death.ogg" id="2_hvcds"]
 
 [node name="die" type="Area2D" unique_id=156986606]
 script = ExtResource("1_5x8g4")

@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://cyxftp4cfcekl"]
 
 [ext_resource type="Texture2D" uid="uid://nisdndkwowlw" path="res://Items/Fruits/Apple.png" id="1_gf172"]
-[ext_resource type="Script" uid="uid://bqdrp8djyl701" path="res://scenes/area_2d.gd" id="1_nhxoo"]
-[ext_resource type="AudioStream" uid="uid://bdex00rudmxop" path="res://coin.wav" id="3_5ieuq"]
+[ext_resource type="Script" uid="uid://bqdrp8djyl701" path="res://scripts/apple.gd" id="1_nhxoo"]
+[ext_resource type="AudioStream" uid="uid://bdex00rudmxop" path="res://audio/coin.wav" id="3_5ieuq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dl81w"]
 atlas = ExtResource("1_gf172")
