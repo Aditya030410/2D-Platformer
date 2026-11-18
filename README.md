@@ -16,7 +16,8 @@ I added animated pickup system of apples, also full system when player dies ( aw
 Alright we gotta make it cool, I added a beautiful backgroung ! also animated enemy which is linked to Die script so now a wokring enemy !!
 #### Day 4 -
 Added some cool Background mUsic and sound effects for pick up and death !! ( gotta listen the death one lmao )
-#### Day - 5 Final ! I added Score board , few labels and run and jump animation also i got stuck where in gd script for jump and run animation and i asked GPT to debug it and that dumb ai couldnt do it for some reason i asked my friend she is also new to gamedev and somehow she knew how to fix it lmao, i was surprised ( i am so dumb, it was js a spacing error for if and elsE )
+#### Day - 5
+Final ! I added Score board , few labels and run and jump animation also i got stuck where in gd script for jump and run animation and i asked GPT to debug it and that dumb ai couldnt do it for some reason i asked my friend she is also new to gamedev and somehow she knew how to fix it lmao, i was surprised ( i am so dumb, it was js a spacing error for if and elsE )
 
 ## How Can You Play !?
 
